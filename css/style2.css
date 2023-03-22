@@ -132,6 +132,13 @@ h1 {
     gap: 17px;
 }
 
+.fa-money-bill-wave,
+.fa-heart,
+.fa-person,
+.fa-dog {
+    padding: 5px;
+}
+
 .fa-info {
     width: 24px;
     height: 24px;
