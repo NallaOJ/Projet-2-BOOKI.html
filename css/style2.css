@@ -355,16 +355,18 @@ article div {
 
 footer {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: flex-start;
     margin-top: 60px;
-    max-width: 1339px;
+    max-width: 1340px;
     background-color: #F2F2F2;
 }
 
 .footer-container {
     display: flex;
     flex-direction: column;
-    padding-left: 70px;
+    margin-right: 150px;
+    padding-left: 20px;
     background: #F2F2F2;
 }
 
@@ -386,7 +388,7 @@ footer {
         border: transparent;
     }
     .filter-icon {
-        width: 90%;
+        width: 80%;
     }
     .cards {
         display: flex;
