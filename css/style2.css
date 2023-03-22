@@ -132,11 +132,11 @@ h1 {
     gap: 17px;
 }
 
-.fa-money-bill-wave,
+.fa-sharp,
 .fa-heart,
 .fa-person,
 .fa-dog {
-    padding: 5px;
+    margin-right: 10px;
 }
 
 .fa-info {
@@ -444,8 +444,14 @@ footer {
         margin-bottom: 30px;
     }
     .active {
+        padding-left: 150px;
+        padding-right: 95px;
         border-top: none;
         border-bottom: #0065FC solid 2px;
+    }
+    .Activités {
+        padding-left: 95px;
+        padding-right: 150px;
     }
     .search-section {
         margin-left: 15px;
