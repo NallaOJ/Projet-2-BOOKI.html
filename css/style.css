@@ -1,11 +1,12 @@
-html {
-    font-size: 62.5%;
-}
-
 * {
     max-width: 1400px;
     font-family: "Raleway", sans-serif;
     font-size: 1.5rem;
+}
+
+html {
+    font-size: 62.5%;
+    margin: auto;
 }
 
 body {
@@ -60,7 +61,7 @@ nav a {
 h1 {
     padding-top: 30px;
     font-weight: bolder;
-    font-size: 2rem;
+    font-size: 22px;
 }
 
 .formula {
@@ -113,7 +114,6 @@ h1 {
 }
 
 .li-filter {
-    font-size: 17px;
     color: #000000;
     font-weight: 700;
     width: 167px;
@@ -139,7 +139,7 @@ h1 {
 .fa-sharp,
 .fa-heart,
 .fa-person,
-.fa-fire {
+.fa-dog {
     margin-right: 10px;
 }
 
@@ -164,7 +164,12 @@ h1 {
 /* MAIN(hebergement + populaire)*/
 
 h2 {
-    font-size: 22px;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+h3 {
+    font-size: 16px;
 }
 
 .cards {
@@ -213,6 +218,7 @@ h2 {
 .popular-section h2,
 .section-activite h2 {
     margin-left: 20px;
+    font-size: 22px;
 }
 
 .section-hebergement,
@@ -439,8 +445,6 @@ footer {
         padding: 0;
     }
     .header {
-        flex-direction: column;
-        align-items: center;
         padding: 0;
     }
     header nav {
